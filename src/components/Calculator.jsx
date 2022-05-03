@@ -31,7 +31,7 @@ function Calculator(props) {
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <div className="col-md-6">
+                    <div className="col-lg-4 col-md-6 col-sm-8 col-12">
                         <div className='card border-primary border-0 shadow mb-3'>
                             <div className="card-body text-primary">
                                 <input autoFocus type="text" onChange={(e) => setVal(e.target.value)} name="" className='form-control form-control-lg mb-4 text-center bg-light fs-4 text-primary shadow' value={val} />
